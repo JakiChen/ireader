@@ -28,6 +28,9 @@ ul, li {
 .platform-ios7 .fixed {
 	top: 43px;
 }
+.fixed {
+	top: 43px;
+}
 .gray-bg {
 	background-color: #f7f7f7;
 }
