@@ -7,7 +7,7 @@
 
 
 // BaseURL
-BaseURL = "http://jakichen.github.io/ireader"; 
+BaseURL = "http://jakichen.github.io/ireader/"; 
 
 angular.module('iReader.services', [])
 /*!
