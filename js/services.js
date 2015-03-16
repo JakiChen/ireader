@@ -83,7 +83,7 @@ angular.module('iReader.services', [])
 .factory('DayliyAdvertising', function($http){
 	var advertisingList =[];
 	$http.defaults.headers.common["X-Custom-Header"] = "Angular.js";
-	$http.get( BaseURL + '/_service/data/category/dayliy/advertising.json' )
+	$http.get( BaseURL + '/service/data/category/dayliy/advertising.json' )
 		 .success(function(data, status, headers,config){
 		 console.log('data success');
 		 console.log(data); // object seems fine
@@ -108,7 +108,7 @@ angular.module('iReader.services', [])
 .factory('DayliyArticleList', function($http){
 	var dayliyArticleList =[];
 	$http.defaults.headers.common["X-Custom-Header"] = "Angular.js";
-	$http.get( BaseURL + '/_service/data/category/dayliy/posts.json' )
+	$http.get( BaseURL + '/service/data/category/dayliy/posts.json' )
 		 .success(function(data, status, headers,config){
 		 console.log('data success');
 		 console.log(data); // object seems fine
