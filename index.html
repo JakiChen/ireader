@@ -46,25 +46,15 @@
          ga('set', {
             page: '/#/sns',
             title: '好友动态'
-            },
-            {
-            page: '/#/dayliy',
-            title: '每日精选'
-            },
-            {
-            page: '/#/author/citymag',
-            title: '城市画报'
-            },
-            {
-            page: '/#/author/zaoduke',
-            title: '早读课'
-            },
-            {
-            page: '/#/author/wow36kr',
-            title: '36Kr'
             });
+            
+          ga('set',{
+               page: '/#/dayliy',
+               title: '每日精选'
+            });
+            
+            
          ga('send', 'pageview');
-         
          ga('send','pageview','/#/sns');
          ga('send','pageview','/#/dayliy');
          ga('send','pageview','/#/author/citymag');
